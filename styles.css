@@ -120,13 +120,17 @@ nav ul li a.active {
 
 .contact-section {
   min-height: 100vh;
-  padding: 80px 20px;
-  text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px 20px;
+  text-align: center;
 }
+
+.contact-section .container {
+  width: 100%;
+}
+
 
 
 
