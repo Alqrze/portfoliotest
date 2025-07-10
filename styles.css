@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0%;
+  padding: 0;
   height: 100%;
   font-family: 'Poppins', sans-serif;
   background-color: #111;
@@ -61,9 +61,8 @@ nav ul li a.active {
   justify-content: center;
   align-items: center;
   padding: 40px 0;
-  background: linear-gradient(to right, #1e1e2f, #2a2a40); /* Optional */
+  background: linear-gradient(to right, #1e1e2f, #2a2a40);
 }
-
 
 .hero-section h1 {
   font-size: 42px;
@@ -118,6 +117,7 @@ nav ul li a.active {
   margin-bottom: 15px;
 }
 
+
 .contact-section {
   min-height: 100vh;
   display: flex;
@@ -125,14 +125,17 @@ nav ul li a.active {
   align-items: center;
   padding: 40px 20px;
   text-align: center;
+  background-color: #111;
 }
 
 .contact-section .container {
   width: 100%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-
-
 
 .contact-links {
   display: flex;
@@ -172,9 +175,9 @@ footer {
   }
 }
 
+
 html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
-
