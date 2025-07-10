@@ -53,9 +53,11 @@ nav ul li a.active {
 }
 
 .hero-section {
-  padding: 100px 20px;
-  background: linear-gradient(to right, #141e30, #243b55);
-  text-align: center;
+  min-height: 100vh; /* Full screen height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-section h1 {
