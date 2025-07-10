@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  padding: 0%;
+  height: 100%;
   font-family: 'Poppins', sans-serif;
   background-color: #111;
   color: #f0f0f0;
@@ -53,12 +55,15 @@ nav ul li a.active {
 }
 
 .hero-section {
-  min-height: 100vh; /* Full screen height */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 40px 0;
+  background: linear-gradient(to right, #1e1e2f, #2a2a40); /* Optional */
 }
+
 
 .hero-section h1 {
   font-size: 42px;
