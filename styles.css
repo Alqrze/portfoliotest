@@ -155,3 +155,10 @@ footer {
     font-size: 28px;
   }
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
